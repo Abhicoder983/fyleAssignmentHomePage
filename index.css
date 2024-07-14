@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    border-radius: 0 !important;
+    
+}
+.whyBest{
+     font: normal normal bold 45px/65px Cormorant SC;;
+}
+
+.card{
+    width: 23%;
+    height: 30%;
+    border: none !important;
+}
+
+.fontHeading{
+    font-size: .8rem !important;
+}
+.fontText{
+     font-size: 0.7rem !important;
+}
