@@ -21,13 +21,15 @@
             }
             
             .contact{
+                display: none;
                z-index: 2;
-               top: 30%;
+               top: 20%;
                right: 30%;
                left: 30%;
                bottom: 30%;
                 height: fit-content;
                 width: fit-content;
+                transition: .7s all ease-in-out;
             }
         </style>
     </head>
@@ -404,7 +406,7 @@
 
             $(document).ready(function () {
 
-                $("#contactForm").css('display', 'none');
+                
                 $("#subContact").click(function () {
                     $("#contactForm").css('display', 'flex');
                     $("#parentContainer").css('opacity', '0.3');
